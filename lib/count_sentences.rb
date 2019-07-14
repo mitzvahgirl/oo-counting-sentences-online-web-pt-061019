@@ -20,6 +20,7 @@ end
 
   def count_sentences
     new array = self.split
+    return new_array.lenth
     self.split(/[.!?]/).reject {|x| x.empty?}.size
   end
 end
